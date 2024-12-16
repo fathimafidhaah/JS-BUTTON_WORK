@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(161, 145, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    width: 50%;
+    height: 85%;
+    background-image: url(pap.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.qot{
+  width: 50%;
+  height: 58%;
+  display: flex;
+  font-family:monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+button{
+    background-color: rgb(198, 192, 192);
+    border-radius: 50%;
+}
